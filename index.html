@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap"
+      rel="stylesheet"
+    />
+    <title>Aula 03 - jQuery - Consultas via API</title>
+  </head>
+  <body>
+    <div class="container" id="tabs">
+      <ul>
+        <li><a href="#fipe">Tabela Fipe</a></li>
+        <li><a href="#address-cep">CEP</a></li>
+      </ul>
+
+      <div class="fipe-data" id="fipe">
+        <label for="#placa">Digite a placa:</label>
+        <input type="text" name="placa" id="placa" />
+        <label for="#marca">Marca:</label>
+        <input type="text" name="marca" id="marca" disabled/>
+        <label for="#modelo">Modelo:</label>
+        <input type="text" name="modelo" id="modelo" disabled/>
+        <label for="#valor">Valor:</label>
+        <input type="text" name="valor" id="valor" disabled/>
+        <label for="#municipio">Municipio:</label>
+        <input type="text" name="municipio" id="municipio" disabled/>
+        <label for="#UF">UF:</label>
+        <input type="text" name="UF" id="UF" disabled/>
+        <input type="button" value="Buscar" id="search-fipe"/>
+        <span class="mostrar-data"></span>
+      </div>
+      <div class="address-data" id="address-cep">
+        <label for="cep">Digite o CEP: </label>
+        <input type="text" name="cep" id="cep" />
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" id="cidade" disabled />
+        <label for="uf">Estado</label>
+        <input type="text" name="uf" id="uf" disabled />
+        <label for="ddd">DDD:</label>
+        <input type="text" name="ddd" id="ddd" disabled />
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" name="logradouro" id="logradouro" disabled />
+        <label for="complemento">Complemento:</label>
+        <input type="text" name="complemento" id="complemento" disabled />
+        <input type="button" value="Buscar" id="search-button" />
+      </div>
+    </div>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

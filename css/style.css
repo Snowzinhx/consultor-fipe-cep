@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #ffbd02 29%, #ff00ff 75%);
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+label {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.container {
+    display: flex;
+    width: 25rem;
+    height: 22rem;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px;
+    align-items: center;
+    background: transparent;
+}
+
+.address-data input {
+    border-radius: 5px;
+    background: transparent;
+    padding: 3px;
+}
+
+.fipe-data input { 
+    border-radius: 5px;
+    background: transparent;
+    padding: 3px;
+}
+
+#tabs ul {
+    height: 22em;
+    background: transparent;
+}
+
+#tabs li{
+    background: transparent;
+    border: none;
+}
+
+.mostrar-data {
+    display: flex;
+    font-size: 0.6rem;
+    margin-top: 0.8em;
+    font-weight: lighter;
+}
+.ui-widget-header {
+    border: 1px solid rgb(221, 221, 221);
+    border-left: none;
+    background: rgb(233, 233, 233);
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
