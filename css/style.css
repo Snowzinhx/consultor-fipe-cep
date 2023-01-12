@@ -62,9 +62,5 @@ label {
     font-weight: lighter;
 }
 .ui-widget-header {
-    border: 1px solid rgb(221, 221, 221);
     border-left: none;
-    background: rgb(233, 233, 233);
-    color: rgb(51, 51, 51);
-    font-weight: bold;
 }
