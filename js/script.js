@@ -1,27 +1,3 @@
-//Método 1
-
-// $(document).ready(function (){
-//   $("#cep").blur(function() {
-//     var valor = $(this).val();
-//     $.get("https://viacep.com.br/ws/" + valor + "/json/", function(dados, status) {
-//       $('#cidade').val(dados.localidade)
-//       $('#uf').val(dados.uf)
-//     });
-//   });
-// });
-
-//método 2
-
-// $(document).ready(function (){
-//   $("#cep").blur(function() {
-//     var valor = $(this).val();
-//     $.get("https://viacep.com.br/ws/" + valor + "/json/", function(dados, status) {
-//       $('#cidade').attr('value', dados.localidade)
-//       $('#uf').attr('value', dados.uf)
-//     });
-//   });
-// });
-
 //Método Ajax
 
 $(document).ready(function () {
