@@ -17,7 +17,7 @@ body {
 
 
 label {
-    color: #ffffff;
+    color: #000;
     font-weight: bolder;
     font-size: 0.8rem;
 }
@@ -30,7 +30,6 @@ label {
     border-radius: 5px;
     box-shadow: 0 2px 7px;
     align-items: center;
-    background: transparent;
 }
 
 .address-data input {
@@ -63,4 +62,8 @@ label {
 }
 .ui-widget-header {
     border-left: none;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #000000
 }
